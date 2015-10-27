@@ -26,7 +26,8 @@
                                    resultWithStatus:CDVCommandStatus_OK
                                    messageAsBool:[self isFastInternal:telephonyInfo.currentRadioAccessTechnology]];
 
-    [self success:result callbackId:callbackId];
+    [self.commandDelegate sendPluginResult:result
+                                    callbackId:callbackId];
 }
 
 - (BOOL)isFastInternal:(NSString*)radioAccessTechnology {
