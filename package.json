@@ -1,23 +1,37 @@
 {
-    "version": "0.1.0",
-    "name": "de.codecentric.currentradioaccesstechnology",
-    "cordova_name": "CurrentRadioAccessTechnology",
-    "description": "\n    Simple plugin that returns if af Celluar Connection isFast or slow.\n  ",
-    "license": "MIT",
-    "repo": "https://github.com/ansgarschulte/CurrentRadioAccessTechnology.git",
-    "issue": "https://github.com/ansgarschulte/CurrentRadioAccessTechnology/issues",
-    "keywords": [
-        "CurrentRadioAccessTechnology",
-        " CTTelephonyNetworkInfo",
-        " currentRadioAccessTechnology"
-    ],
+  "version": "0.1.0",
+  "name": "CurrentRadioAccessTechnology",
+  "description": "Simple plugin that returns if af Celluar Connection isFast or slow.",
+  "cordova": {
+    "id": "de.codecentric.currentradioaccesstechnology",
     "platforms": [
-        "ios"
-    ],
-    "engines": [
-        {
-            "name": "cordova",
-            "version": ">=3.0.0"
-        }
+          "ios"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ansgarschulte/CurrentRadioAccessTechnology.git"
+  },
+
+  "repo": "https://github.com/ansgarschulte/CurrentRadioAccessTechnology.git",
+  "issue": "https://github.com/ansgarschulte/CurrentRadioAccessTechnology/issues",
+
+  "engines": [
+      {
+          "name": "cordova",
+          "version": ">=3.0.0"
+      }
+  ],
+
+  "keywords": [
+    "cordova",
+    "device",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "CurrentRadioAccessTechnology",
+    " CTTelephonyNetworkInfo",
+    " currentRadioAccessTechnology"
+  ],
+  "author": "Ansgar Schulte",
+  "license": "MIT"
 }
